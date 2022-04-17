@@ -17,6 +17,6 @@
     </environments>
     
     <mappers>
-        <package name="main.java.mapper"/>
+        <package name="main.com.mapper"/>
     </mappers>
 </configuration>
