@@ -5,6 +5,6 @@
     <!-- id:对应Dao层接口方法名 parameterType:指定输入参数类型-->
     <!-- useGeneratedKeys="true"把新增加的主键赋值到自己定义的keyProperty (id)中 -->
     <select id="queryUserByName" parameterType="string" resultType="main.com.entity.User">
-         select * from tb_user where userName = #{userName}
+         select * from user where userName = #{userName}
     </select>
 </mapper>
